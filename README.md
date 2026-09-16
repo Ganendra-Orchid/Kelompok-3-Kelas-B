@@ -90,9 +90,9 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-(Flowchart.fprg)
+[Flowchart.fprg](https://github.com/Ganendra-Orchid/Kelompok-3-Kelas-B/blob/de056e9a80173352b007c189495b0c811bc67876/Flowchart.fprg)
 
----
+/---
 
 ## 10. JavaScript Implementation
 
