@@ -90,7 +90,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`TUGAS LPP KELOMPOK `
+`Flowchart.fprg`
 
 ---
 
