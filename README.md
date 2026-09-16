@@ -80,7 +80,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-`https://github.com/Ganendra-Orchid/Kelompok-3-Kelas-B/blob/main/pseudocode.txt`
+`pseudocode.txt`
 
 ---
 
