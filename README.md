@@ -11,7 +11,7 @@
 | No. | Name | Student ID | Role |
 |---|---|---|---|
 | 1 | Ganendra Samudera Putra Purwanto | 2610312049 | Project Coordinator |
-| 2 | Ibrahim Ridzky | 26103120 | Algorithm |
+| 2 | Ibrahim Ridzky | 2610312066 | Algorithm |
 | 3 | Dito Beltazar Ginting | 2610312050 | Flowchart |
 | 4 | Ridwan Nur Hidayat | 2610312036 | JavaScript |
 | 5 | babsiu | 2610312049 | Testing & Documentation |
