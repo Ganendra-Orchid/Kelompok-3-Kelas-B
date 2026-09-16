@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tugas lpp"/>
+        <attribute name="authors" value="ASUSS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-12 07:47:29 AM"/>
+        <attribute name="created" value="QVNVU1M7REVTS1RPUC1RTEFGSjgxOzIwMjYtMDktMDk7MDc6Mjk6MDUgQU07MjczMw=="/>
+        <attribute name="edited" value="QVNVU1M7REVTS1RPUC1RTEFGSjgxOzIwMjYtMDktMTI7MDc6NDc6MjkgQU07ODsyODQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Tugas, Kuis, UTS, UAS, Hasil" type="Real" array="False" size=""/>
+            <declare name="ulang" type="String" array="False" size=""/>
+            <do expression="ulang=&quot;Y&quot; or ulang=&quot;y&quot;">
+                <output expression="&quot;Student Grade Calculator&quot;" newline="True"/>
+                <output expression="&quot;Masukan Nilai Tugas&quot;" newline="True"/>
+                <input variable="Tugas"/>
+                <while expression="Tugas&lt;0 or Tugas&gt;100">
+                    <output expression="&quot;NILAI TUGAS TIDAK VALID!&quot;" newline="True"/>
+                    <output expression="&quot;Masukan Nilai Tugas&quot;" newline="True"/>
+                    <input variable="Tugas"/>
+                </while>
+                <output expression="&quot;Masukkan nilai Kuis&quot;" newline="True"/>
+                <input variable="Kuis"/>
+                <while expression="Kuis&lt;0 or Kuis&gt;100">
+                    <output expression="&quot;NILAI KUIS TIDAK VALID!&quot;" newline="True"/>
+                    <output expression="&quot;Masukkan nilai Kuis&quot;" newline="True"/>
+                    <input variable="Kuis"/>
+                </while>
+                <output expression="&quot;Masukkan nilai UTS&quot;" newline="True"/>
+                <input variable="UTS"/>
+                <while expression="UTS&lt;0 or UTS&gt;100">
+                    <output expression="&quot;NILAI UTS TIDAK VALID!&quot;" newline="True"/>
+                    <output expression="&quot;Masukkan nilai UTS&quot;" newline="True"/>
+                    <input variable="UTS"/>
+                </while>
+                <output expression="&quot;Masukkan Nilai UAS&quot;" newline="True"/>
+                <input variable="UAS"/>
+                <while expression="UAS&lt;0 or UAS&gt;100">
+                    <output expression="&quot;NILAI UAS DI LUAR NALAR!&quot;" newline="True"/>
+                    <output expression="&quot;Masukkan Nilai UAS&quot;" newline="True"/>
+                    <input variable="UAS"/>
+                </while>
+                <assign variable="Hasil" expression="Tugas*0.2+Kuis*0.2+UTS*0.3+UAS*0.3"/>
+                <if expression="Hasil&gt;=80 and Hasil&lt;=100">
+                    <then>
+                        <output expression="&quot;Grade = A&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="Hasil&gt;=70 and Hasil&lt;80">
+                            <then>
+                                <output expression="&quot;Grade = B&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <if expression="Hasil&gt;=60 and Hasil&lt;70">
+                                    <then>
+                                        <output expression="&quot;Grade = C&quot;" newline="True"/>
+                                    </then>
+                                    <else>
+                                        <if expression="Hasil&gt;50 and Hasil&lt;60">
+                                            <then>
+                                                <output expression="&quot;Grade = D&quot;" newline="True"/>
+                                            </then>
+                                            <else>
+                                                <output expression="&quot;Grade = E&quot;" newline="True"/>
+                                                <output expression="&quot;Selamat&quot;" newline="True"/>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <output expression="&quot;Nilai Anda :&quot;" newline="True"/>
+                <output expression="Hasil" newline="True"/>
+                <output expression="&quot;Hitung Ulang? (Y/N)&quot;" newline="True"/>
+                <input variable="ulang"/>
+            </do>
+            <output expression="&quot;Sampai Jumpa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
