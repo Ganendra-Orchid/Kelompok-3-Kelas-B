@@ -80,7 +80,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-<a href="p><a href="pseudocode.txt">pseudocode.txt
+<a href="pseudocode.txt">pseudocode.txt
 
 ---
 
