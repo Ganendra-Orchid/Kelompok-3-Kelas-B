@@ -1,0 +1,75 @@
+START
+
+DECLARE Tugas, Kuis, UTS, UAS, Hasil AS REAL
+DECLARE ulang AS STRING
+
+REPEAT
+
+    OUTPUT "Student Grade Calculator"
+
+    OUTPUT "Masukan Nilai Tugas"
+    INPUT Tugas
+
+    WHILE Tugas < 0 OR Tugas > 100 DO
+        OUTPUT "NILAI TUGAS TIDAK VALID!"
+        OUTPUT "Masukan Nilai Tugas"
+        INPUT Tugas
+    END WHILE
+
+    OUTPUT "Masukkan nilai Kuis"
+    INPUT Kuis
+
+    WHILE Kuis < 0 OR Kuis > 100 DO
+        OUTPUT "NILAI KUIS TIDAK VALID!"
+        OUTPUT "Masukkan nilai Kuis"
+        INPUT Kuis
+    END WHILE
+
+    OUTPUT "Masukkan nilai UTS"
+    INPUT UTS
+
+    WHILE UTS < 0 OR UTS > 100 DO
+        OUTPUT "NILAI UTS TIDAK VALID!"
+        OUTPUT "Masukkan nilai UTS"
+        INPUT UTS
+    END WHILE
+
+    OUTPUT "Masukkan Nilai UAS"
+    INPUT UAS
+
+    WHILE UAS < 0 OR UAS > 100 DO
+        OUTPUT "NILAI UAS DI LUAR NALAR!"
+        OUTPUT "Masukkan Nilai UAS"
+        INPUT UAS
+    END WHILE
+
+    Hasil ← (Tugas × 0.2) + (Kuis × 0.2) + (UTS × 0.3) + (UAS × 0.3)
+
+    IF Hasil >= 80 AND Hasil <= 100 THEN
+        OUTPUT "Grade = A"
+
+    ELSE IF Hasil >= 70 AND Hasil < 80 THEN
+        OUTPUT "Grade = B"
+
+    ELSE IF Hasil >= 60 AND Hasil < 70 THEN
+        OUTPUT "Grade = C"
+
+    ELSE IF Hasil > 50 AND Hasil < 60 THEN
+        OUTPUT "Grade = D"
+
+    ELSE
+        OUTPUT "Grade = E"
+        OUTPUT "Selamat"
+    END IF
+
+    OUTPUT "Nilai Anda :"
+    OUTPUT Hasil
+
+    OUTPUT "Hitung Ulang? (Y/N)"
+    INPUT ulang
+
+UNTIL ulang ≠ "Y" AND ulang ≠ "y"
+
+OUTPUT "Sampai Jumpa"
+
+END
