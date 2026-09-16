@@ -90,7 +90,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`https://github.com/Ganendra-Orchid/Kelompok-3-Kelas-B/blob/d6f56663ef2098c5720967d74aaa2ec4c75ed22a/Flowchart.fprg`
+(Flowchart.fprg)
 
 ---
 
