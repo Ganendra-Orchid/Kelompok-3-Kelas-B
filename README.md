@@ -92,7 +92,7 @@ File:
 
 [Flowchart.fprg](https://github.com/Ganendra-Orchid/Kelompok-3-Kelas-B/blob/de056e9a80173352b007c189495b0c811bc67876/Flowchart.fprg)
 
-.[Flowchart.png](https://github.com/Ganendra-Orchid/Kelompok-3-Kelas-B/blob/4d1d969f9b91fe611c28143b2e767adc1c471c3f/Flowchart.fprg%20-%20Main.png)
+[Flowchart.png](https://github.com/Ganendra-Orchid/Kelompok-3-Kelas-B/blob/4d1d969f9b91fe611c28143b2e767adc1c471c3f/Flowchart.png)
 
 ## 10. JavaScript Implementation
 
