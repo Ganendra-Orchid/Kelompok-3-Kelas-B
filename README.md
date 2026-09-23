@@ -98,7 +98,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-'program.js`
+[program.js](https://www.programiz.com/online-compiler/04Qgl5qNTwt0f)
 
 ---
 
