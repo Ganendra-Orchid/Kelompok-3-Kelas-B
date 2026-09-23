@@ -14,6 +14,7 @@ Masukkan nilai UTS = 45
 
 Masukkan Nilai UAS = 78
 
+
 **Excpected Output:**
 
 Grade C
@@ -24,7 +25,9 @@ Nilai anda:
 
 Hitung ulang (Y/N)
 
+
 **Actual Output:**
+
 Grade C
 
 Nilai anda:
