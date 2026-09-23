@@ -7,8 +7,11 @@ Testing and results documentation:
 
 **Input:**  
 Masukkan Nilai Tugas = 80
+
 Masukkan nilai Kuis = 76
+
 Masukkan nilai UTS = 45
+
 Masukkan Nilai UAS = 78
 
 **Excpected Output:**
@@ -33,8 +36,11 @@ Hitung ulang (Y/N)
 
 **Input:**  
 Masukkan Nilai Tugas = 86
+
 Masukkan nilai Kuis = 79
+
 Masukkan nilai UTS = 90
+
 Masukkan Nilai UAS = 74
 
 **Excpected Output:**
@@ -59,8 +65,11 @@ Hitung ulang (Y/N)
 
 **Input:**  
 Masukkan Nilai Tugas = 78
+
 Masukkan nilai Kuis = 65
+
 Masukkan nilai UTS = 44
+
 Masukkan Nilai UAS = 54
 
 **Excpected Output:**
