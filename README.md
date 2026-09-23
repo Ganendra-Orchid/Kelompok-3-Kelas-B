@@ -26,7 +26,7 @@ Student Grade Calculator
 
 ## 3. Project Description
 
-This program is a simple game in which the player must guess a number determined by the computer.
+This program is a .
 
 ---
 
@@ -48,8 +48,10 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- The player's guess
-- The number of attempts
+- The score of the task
+- The score of the quiz
+- The score of the midterm exam
+- The score of the final exam
 
 ---
 
@@ -67,12 +69,14 @@ If the guess is:
 
 ## 7. Output
 
-The program displays:
+Program harus dapat:
+1. Menerima empat komponen nilai.
+2. Memvalidasi nilai yang dimasukkan.
+3. Menghitung nilai akhir berdasarkan bobot.
+4. Menentukan nilai huruf.
+5. Menampilkan hasil perhitungan.
+6. Memungkinkan pengguna menghitung nilai mahasiswa lain.
 
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
 
 ---
 
