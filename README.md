@@ -63,7 +63,7 @@ If the guess is:
 
 - Too high → the program provides a "NILAI TUGAS TIDAK VALID" message
 - Too low → the program provides a "NILAI TUGAS TIDAK VALID" message
-- Correct → the grade and the average grading will be given
+- Correct → the grade and the average score will be provided
 
 ---
 
