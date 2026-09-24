@@ -26,7 +26,7 @@ Student Grade Calculator
 
 ## 3. Project Description
 
-This program is a .
+This program is a simple grade calculator to calculate and clasify student's grade
 
 ---
 
@@ -61,9 +61,9 @@ The program compares the player's guess with the target number.
 
 If the guess is:
 
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+- Too high → the program provides a "NILAI TUGAS TIDAK VALID" message
+- Too low → the program provides a "NILAI TUGAS TIDAK VALID" message
+- Correct → the grade and the average grading will be given
 
 ---
 
